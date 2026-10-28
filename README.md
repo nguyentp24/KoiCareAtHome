@@ -17,11 +17,7 @@ A full-stack web application that helps koi enthusiasts manage ponds, track fish
 
 **Frontend:** Deployed on Vercel · **Backend:** Cloud deployment pending
 
-[Source Code](https://github.com/namt-fptu/SWP391_KoiCareAtHome) · [Architecture Explorer](https://gitdiagram.com/namt-fptu/swp391_koicareathome)
-
-<!-- Add your actual deployed frontend URL once available:
-[Live Frontend Demo](https://YOUR-PROJECT.vercel.app)
--->
+[🌐 Live Frontend Demo](https://koi-care-at-home.vercel.app/) · [Source Code](https://github.com/namt-fptu/SWP391_KoiCareAtHome) · [Architecture Explorer](https://gitdiagram.com/namt-fptu/swp391_koicareathome)
 
 </div>
 
@@ -48,36 +44,49 @@ KoiCareAtHome addresses this problem through a centralized dashboard and structu
 | Institution | FPT University |
 | Project type | Academic full-stack web application |
 | Repository | [namt-fptu/SWP391_KoiCareAtHome](https://github.com/namt-fptu/SWP391_KoiCareAtHome) |
-| Current hosting | Frontend on Vercel; Backend not yet publicly deployed |
+| Live frontend | [https://koi-care-at-home.vercel.app/](https://koi-care-at-home.vercel.app/) |
+| Current hosting | Frontend deployed on Vercel; backend not yet publicly deployed |
 
 > **For recruiters:** The frontend has been deployed, but the backend is not yet hosted publicly. Features that require API access may not work in the online frontend demo until the backend deployment and database configuration are complete. The source code is available for technical review.
 
 ## Screenshots
 
-Screenshots of the application will be added after the relevant pages are captured. Suggested views include the landing page, pond dashboard, koi profiles, water parameter tracking, shop management, and admin dashboard.
+The following screenshots highlight the deployed frontend interface and the main workflows available in the project. Some interactive screens depend on a backend API that has not yet been deployed publicly.
 
-<!--
-To display actual screenshots, create a screenshots/ folder in the repository,
-add the image files, and uncomment/update the references below:
+### Landing Page
 
-![Landing Page](screenshots/landing-page.png)
-*Landing page and navigation*
+<div align="center">
+  <img src="screenshots/landing-page.png" alt="KoiF landing page with koi imagery, navigation, and sign-in button" width="900" />
+  <p><em>Landing page — introduction to the platform and entry point for users.</em></p>
+</div>
 
-![Pond Dashboard](screenshots/pond-dashboard.png)
-*Pond owner overview*
+### Platform Features
 
-![Koi Management](screenshots/koi-management.png)
-*Koi profiles and growth tracking*
+<div align="center">
+  <img src="screenshots/features.png" alt="KoiF feature overview: growth tracking, koi management, food diary, photos, pond monitoring, and charts" width="900" />
+  <p><em>Feature overview — fish growth, feeding, photos, water quality, and statistics.</em></p>
+</div>
 
-![Water Parameters](screenshots/water-parameters.png)
-*Water quality monitoring*
+### Advertisement Packages
 
-![Shop Dashboard](screenshots/shop-dashboard.png)
-*Shop management interface*
+<div align="center">
+  <img src="screenshots/advertisement-packages.png" alt="KoiF advertisement package interface showing Standard, VIP, and Premium plans" width="900" />
+  <p><em>Advertisement package selection — Standard, VIP, and Premium options.</em></p>
+</div>
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
-*Administration dashboard*
--->
+### Pond Owner Dashboard
+
+<div align="center">
+  <img src="screenshots/pond-owner-dashboard.png" alt="Pond owner dashboard displaying pond, koi, water parameters, care calculators, reports, and statistics" width="900" />
+  <p><em>Pond owner dashboard — a central workspace for managing koi care activities.</em></p>
+</div>
+
+### Administrator Dashboard
+
+<div align="center">
+  <img src="screenshots/admin-dashboard.png" alt="Administrator dashboard with total user count, post summary, revenue chart, and management navigation" width="900" />
+  <p><em>Administrator dashboard — platform monitoring and management interfaces.</em></p>
+</div>
 
 ## Features
 
@@ -199,6 +208,12 @@ SWP391_KoiCareAtHome/
 │   ├── index.html
 │   ├── package.json
 │   └── vite.config.js
+├── screenshots/                       # UI screenshots used in README
+│   ├── landing-page.png
+│   ├── features.png
+│   ├── advertisement-packages.png
+│   ├── pond-owner-dashboard.png
+│   └── admin-dashboard.png
 └── README.md
 ```
 
@@ -269,16 +284,16 @@ Do not commit passwords, database connection strings with credentials, private k
 
 | Component | Current status | Notes |
 | --- | --- | --- |
-| Frontend | **Deployed** | Hosted on Vercel; add the actual public link above |
+| Frontend | **Deployed** | [Open live frontend](https://koi-care-at-home.vercel.app/) on Vercel |
 | Backend API | **Not yet deployed** | Currently requires a local or separately configured environment |
 | Database | **Cloud setup not yet confirmed** | Required for end-to-end API functionality |
-| Full online demonstration | **In progress** | Will be available after backend integration |
+| Full online demonstration | **Partially available** | Public frontend is accessible; API-dependent workflows require backend deployment |
 
 ## Next Steps
 
 - Deploy the ASP.NET Core API and configure its database securely.
 - Connect the Vercel frontend to the hosted API through an environment-based URL.
-- Add real application screenshots and a public demo link to this README.
+- Validate all API-dependent workflows after deploying and connecting the backend.
 - Document backend-specific prerequisites and exact startup instructions.
 
 ---
